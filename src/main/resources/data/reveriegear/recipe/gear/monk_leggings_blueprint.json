@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:leggings_blueprint"
+    },
+    {
+      "item": "minecraft:shield"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:monk_leggings_blueprint"
+  }
+}

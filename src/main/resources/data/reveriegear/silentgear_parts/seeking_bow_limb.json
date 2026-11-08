@@ -1,0 +1,35 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:seeking_bow_limb"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.seeking_bow_limb"
+    },
+    "name_prefix": "part.reveriegear.seeking_bow_limb.prefix"
+  },
+  "gear_type": "reveriegear:seeking_bow",
+  "part_type": "silentgear:main",
+  "properties": {
+    "repair_efficiency": 1.0,
+    "ranged_damage": {
+      "operation": "ADD",
+      "value": 7.5
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 300.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ]
+  }
+}

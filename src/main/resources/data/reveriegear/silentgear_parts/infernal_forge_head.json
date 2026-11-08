@@ -1,0 +1,49 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:infernal_forge_head"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.infernal_forge_head"
+    },
+    "name_prefix": ""
+  },
+  "gear_type": "reveriegear:infernal_forge",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 11.0
+    },
+    "attack_speed": [
+      {
+        "operation": "ADD",
+        "value": 1.1
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.9
+      }
+    ],
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.8
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.15
+    },
+    "repair_efficiency": 1.5
+  }
+}

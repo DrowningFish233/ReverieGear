@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "T T",
+    "TAT",
+    "TTT"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "silentgear:template_board"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "reveriegear:traveler_chestplate_template"
+  }
+}

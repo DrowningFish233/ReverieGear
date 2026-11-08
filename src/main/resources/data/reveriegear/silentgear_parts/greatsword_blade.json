@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:greatsword_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.greatsword_blade"
+    },
+    "name_prefix": "part.reveriegear.greatsword_blade.prefix"
+  },
+  "gear_type": "reveriegear:greatsword",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 3.0
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 0.9
+    },
+    "repair_efficiency": 1.0,
+    "knockback_resistance": {
+      "operation": "ADD",
+      "value": 0.05
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ]
+  }
+}

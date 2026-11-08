@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/unwinding_chaos_staff/main",
+    "layer1": "silentgear:item/part_marker"
+  }
+}

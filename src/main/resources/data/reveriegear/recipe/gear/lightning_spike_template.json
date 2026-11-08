@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " BB",
+    "BA ",
+    "A  "
+  ],
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    "B": {
+      "item": "silentgear:template_board"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "reveriegear:lightning_spike_template"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:boots_blueprint"
+    },
+    {
+      "item": "minecraft:shield"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:monk_boots_blueprint"
+  }
+}

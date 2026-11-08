@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:excavator_template"
+    },
+    {
+      "item": "silentgear:hammer_template"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:wide_excavator_template"
+  }
+}

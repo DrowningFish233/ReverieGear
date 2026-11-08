@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/tiansha_star_blade/tiansha_star_blade_handle",
+    "layer1": "reveriegear:item/tiansha_star_blade/tiansha_star_blade_blade",
+    "layer2": "reveriegear:item/tiansha_star_blade/_highlight"
+  }
+}

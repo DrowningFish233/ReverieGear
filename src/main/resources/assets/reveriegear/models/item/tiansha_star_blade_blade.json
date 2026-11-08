@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/tiansha_star_blade/tiansha_star_blade_blade",
+    "layer1": "reveriegear:item/tiansha_star_blade/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

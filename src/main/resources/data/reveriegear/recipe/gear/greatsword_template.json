@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:shield_template"
+    },
+    {
+      "item": "silentgear:sword_template"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:greatsword_template"
+  }
+}

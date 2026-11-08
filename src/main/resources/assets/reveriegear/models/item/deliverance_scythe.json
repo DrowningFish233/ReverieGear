@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "reveriegear:item/handheld_large",
+    "textures": {
+      "layer0": "reveriegear:item/deliverance_scythe/rod_huge",
+      "layer1": "reveriegear:item/deliverance_scythe/main_huge",
+      "layer3": "reveriegear:item/deliverance_scythe/_highlight_huge"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "reveriegear:item/deliverance_scythe/rod_generic_hc",
+        "layer1": "reveriegear:item/deliverance_scythe/main_generic_hc",
+        "layer2": "reveriegear:item/deliverance_scythe/_highlight"
+      }
+    }
+  }
+}

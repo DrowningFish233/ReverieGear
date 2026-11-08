@@ -1,0 +1,35 @@
+{
+  "type": "silentgear:compound_part",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "type": "silentgear:blueprint",
+      "gear_type": "reveriegear:tiansha_star_blade",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:tiansha_star_blade",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:tiansha_star_blade",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:tiansha_star_blade",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:tiansha_star_blade",
+      "part_type": "silentgear:main"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:tiansha_star_blade_blade"
+  }
+}

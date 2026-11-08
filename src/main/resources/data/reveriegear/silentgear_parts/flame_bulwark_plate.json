@@ -1,0 +1,31 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:flame_bulwark_plate"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.flame_bulwark_plate"
+    },
+    "name_prefix": "part.reveriegear.flame_bulwark_plate.prefix"
+  },
+  "gear_type": "reveriegear:flame_bulwark",
+  "part_type": "silentgear:main",
+  "properties": {
+    "repair_efficiency": 2.0,
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.1
+      }
+    ]
+  }
+}

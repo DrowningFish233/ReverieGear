@@ -1,0 +1,31 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:autoloader_crossbow_limb"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.autoloader_crossbow_limb"
+    },
+    "name_prefix": "part.reveriegear.autoloader_crossbow_limb.prefix"
+  },
+  "gear_type": "reveriegear:autoloader_crossbow",
+  "part_type": "silentgear:main",
+  "properties": {
+    "repair_efficiency": 1.0,
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ]
+  }
+}

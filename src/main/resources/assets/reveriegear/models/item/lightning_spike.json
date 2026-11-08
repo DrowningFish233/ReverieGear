@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/lightning_spike/handle",
+    "layer1": "reveriegear:item/lightning_spike/blade",
+    "layer2": "reveriegear:item/lightning_spike/string",
+    "layer3": "reveriegear:item/lightning_spike/_highlight"
+  }
+}

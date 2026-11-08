@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/sundering_anchor/rod",
+    "layer1": "reveriegear:item/sundering_anchor/main",
+    "layer2": "reveriegear:item/sundering_anchor/_highlight"
+  }
+}

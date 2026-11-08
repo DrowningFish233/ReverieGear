@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/hex_staff/rod",
+    "layer1": "reveriegear:item/hex_staff/main",
+    "layer2": "reveriegear:item/hex_staff/_highlight"
+  }
+}

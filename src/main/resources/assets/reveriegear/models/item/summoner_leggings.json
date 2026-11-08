@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/summoner_leggings/main",
+    "layer1": "reveriegear:item/summoner_leggings/_highlight"
+  }
+}

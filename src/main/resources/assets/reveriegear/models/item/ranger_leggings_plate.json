@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/ranger_leggings/main",
+    "layer1": "reveriegear:item/ranger_leggings/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "silentgear:compound_part",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "type": "silentgear:blueprint",
+      "gear_type": "reveriegear:wide_excavator",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:wide_excavator",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:wide_excavator",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:wide_excavator",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:wide_excavator",
+      "part_type": "silentgear:main"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "reveriegear:wide_excavator",
+      "part_type": "silentgear:main"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:wide_excavator_head"
+  }
+}

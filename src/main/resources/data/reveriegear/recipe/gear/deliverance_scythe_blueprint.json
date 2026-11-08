@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "malum:edge_of_deliverance"
+    },
+    {
+      "item": "silentgear:blueprint_paper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:deliverance_scythe_blueprint"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "reveriegear:item/handheld_large",
+    "textures": {
+      "layer0": "reveriegear:item/furioso/rod",
+      "layer1": "reveriegear:item/furioso/blade",
+      "layer2": "reveriegear:item/furioso/core",
+      "layer3": "reveriegear:item/furioso/_highlight"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "reveriegear:item/furioso/rod_gui",
+        "layer1": "reveriegear:item/furioso/blade_gui",
+        "layer2": "reveriegear:item/furioso/core_gui",
+        "layer3": "reveriegear:item/furioso/_highlight_gui"
+      }
+    }
+  }
+}

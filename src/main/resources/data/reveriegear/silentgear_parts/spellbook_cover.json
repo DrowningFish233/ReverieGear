@@ -1,0 +1,49 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:spellbook_cover"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.spellbook_cover"
+    },
+    "name_prefix": "part.reveriegear.spellbook_cover.prefix"
+  },
+  "gear_type": "reveriegear:spellbook",
+  "part_type": "silentgear:main",
+  "properties": {
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 100.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.1
+      }
+    ],
+    "max_mana": [
+      {
+        "operation": "ADD",
+        "value": 100.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 3
+      }
+    ],
+    "spell_power": {
+      "operation": "ADD",
+      "value": 0.05
+    },
+    "spell_slots": {
+      "operation": "ADD",
+      "value": 3
+    },
+    "repair_efficiency": 1.0
+  }
+}

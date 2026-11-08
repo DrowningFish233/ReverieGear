@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/soul_hunter_helmet/main",
+    "layer1": "reveriegear:item/soul_hunter_helmet/_highlight"
+  }
+}

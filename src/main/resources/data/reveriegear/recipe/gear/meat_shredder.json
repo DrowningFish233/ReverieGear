@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:gear_crafting",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "reveriegear:meat_shredder_blade"
+    },
+    {
+      "type": "silentgear:part_type",
+      "part_type": "silentgear:rod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:meat_shredder"
+  }
+}

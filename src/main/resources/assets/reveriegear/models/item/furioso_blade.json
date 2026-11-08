@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/furioso/blade_gui",
+    "layer1": "reveriegear:item/furioso/_highlight_gui",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

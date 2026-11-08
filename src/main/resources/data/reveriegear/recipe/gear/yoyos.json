@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:gear_crafting",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "reveriegear:yoyos_head"
+    },
+    {
+      "type": "silentgear:part_type",
+      "part_type": "silentgear:cord"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:yoyos"
+  }
+}

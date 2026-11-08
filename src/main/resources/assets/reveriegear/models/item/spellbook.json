@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/spellbook/cord",
+    "layer1": "reveriegear:item/spellbook/cover",
+    "layer2": "reveriegear:item/spellbook/lining"
+  }
+}

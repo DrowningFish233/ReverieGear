@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/wide_excavator/head",
+    "layer1": "reveriegear:item/wide_excavator/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

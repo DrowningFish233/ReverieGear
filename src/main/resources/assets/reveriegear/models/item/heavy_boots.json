@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/boots/main",
+    "layer1": "reveriegear:item/boots/_highlight"
+  }
+}

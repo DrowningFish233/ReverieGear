@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:whip_head"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.whip_head"
+    },
+    "name_prefix": "part.reveriegear.whip_head.prefix"
+  },
+  "gear_type": "reveriegear:whip",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 0.5
+    },
+    "attack_reach": {
+      "operation": "ADD",
+      "value": 0.5
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 0.5
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 200.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.1
+      }
+    ],
+    "repair_efficiency": 1.0
+  }
+}

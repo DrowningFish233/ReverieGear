@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "reveriegear:item/template_large_sword",
+    "textures": {
+      "layer0": "reveriegear:item/soul_spear/rod",
+      "layer1": "reveriegear:item/soul_spear/main",
+      "layer2": "reveriegear:item/soul_spear/_highlight"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "reveriegear:item/soul_spear/rod_gui",
+        "layer1": "reveriegear:item/soul_spear/main_gui",
+        "layer2": "reveriegear:item/soul_spear/_highlight_gui"
+      }
+    }
+  }
+}

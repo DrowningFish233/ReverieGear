@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:brontes_head"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.brontes_head"
+    },
+    "name_prefix": "part.reveriegear.brontes_head.prefix"
+  },
+  "gear_type": "reveriegear:brontes",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 11.0
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 1.0
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.15
+    },
+    "repair_efficiency": 1.5
+  }
+}

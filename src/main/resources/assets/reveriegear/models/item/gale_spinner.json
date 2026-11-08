@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/gale_spinner/rod",
+    "layer1": "reveriegear:item/gale_spinner/main",
+    "layer2": "reveriegear:item/gale_spinner/_highlight"
+  }
+}

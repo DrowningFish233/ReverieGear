@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:pickaxe_template"
+    },
+    {
+      "item": "silentgear:prospector_hammer_template"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:mode_pickaxe_template"
+  }
+}

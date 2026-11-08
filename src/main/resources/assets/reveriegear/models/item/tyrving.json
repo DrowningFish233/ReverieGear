@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/tyrving/rod",
+    "layer1": "reveriegear:item/tyrving/main",
+    "layer2": "reveriegear:item/tyrving/_highlight"
+  }
+}

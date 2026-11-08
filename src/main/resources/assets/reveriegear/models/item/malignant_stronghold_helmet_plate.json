@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/malignant_stronghold_helmet/main",
+    "layer1": "reveriegear:item/malignant_stronghold_helmet/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:sundering_anchor_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.sundering_anchor_blade"
+    },
+    "name_prefix": "part.reveriegear.sundering_anchor_blade.prefix"
+  },
+  "gear_type": "reveriegear:sundering_anchor",
+  "part_type": "silentgear:main",
+  "properties": {
+    "magic_damage": {
+      "operation": "ADD",
+      "value": 4
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 2.0
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 500.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ],
+    "repair_efficiency": 1.0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/monk_helmet/main",
+    "layer1": "reveriegear:item/monk_helmet/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

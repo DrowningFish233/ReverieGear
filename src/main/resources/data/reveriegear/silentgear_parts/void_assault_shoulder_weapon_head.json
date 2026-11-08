@@ -1,0 +1,44 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:void_assault_shoulder_weapon_head"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.void_assault_shoulder_weapon_head"
+    },
+    "name_prefix": "part.reveriegear.void_assault_shoulder_weapon_head.prefix"
+  },
+  "gear_type": "reveriegear:void_assault_shoulder_weapon",
+  "part_type": "silentgear:main",
+  "properties": {
+    "ranged_damage": {
+      "operation": "ADD",
+      "value": 5.0
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 0.1
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 500.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.9
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.05
+    },
+
+    "repair_efficiency": 1.4
+  }
+}

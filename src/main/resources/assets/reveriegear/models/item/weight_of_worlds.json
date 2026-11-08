@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "reveriegear:item/handheld_large",
+    "textures": {
+      "layer0": "reveriegear:item/weight_of_worlds/rod",
+      "layer1": "reveriegear:item/weight_of_worlds/main",
+      "layer2": "reveriegear:item/weight_of_worlds/_highlight"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "reveriegear:item/weight_of_worlds/rod_gui",
+        "layer1": "reveriegear:item/weight_of_worlds/main_gui",
+        "layer2": "reveriegear:item/weight_of_worlds/_highlight_gui"
+      }
+    }
+  }
+}

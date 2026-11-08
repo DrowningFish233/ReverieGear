@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/ancient_spear/ancient_spear_head",
+    "layer1": "silentgear:item/part_marker"
+  }
+}

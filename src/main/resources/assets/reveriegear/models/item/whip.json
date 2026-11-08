@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/whip/main",
+    "layer1": "reveriegear:item/whip/rod",
+    "layer2": "reveriegear:item/whip/_highlight"
+  }
+}

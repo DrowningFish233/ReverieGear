@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:blueprint_paper"
+    },
+    {
+      "item": "cataclysm:ceraunus"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:ceraunus_blueprint"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ]
+}

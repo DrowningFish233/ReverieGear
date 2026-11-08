@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:astrape_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.astrape_blade"
+    },
+    "name_prefix": "part.reveriegear.astrape_blade.prefix"
+  },
+  "gear_type": "reveriegear:astrape",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 8.5
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 1.4
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.15
+    },
+    "repair_efficiency": 1.5
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/chestplate/main",
+    "layer1": "reveriegear:item/chestplate/_highlight"
+  }
+}

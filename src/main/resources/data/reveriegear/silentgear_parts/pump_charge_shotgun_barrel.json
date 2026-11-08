@@ -1,0 +1,55 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:pump_charge_shotgun_barrel"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.pump_charge_shotgun_barrel"
+    },
+    "name_prefix": "part.reveriegear.pump_charge_shotgun_barrel.prefix"
+  },
+  "gear_type": "reveriegear:pump_charge_shotgun",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "MULTIPLY_TOTAL",
+      "value": -0.9
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 4.2
+    },
+    "ranged_damage": {
+      "operation": "ADD",
+      "value": 1.0
+    },
+    "projectile_speed": {
+      "operation": "MULTIPLY_BASE",
+      "value": 1.1
+    },
+    "projectile_accuracy": {
+      "operation": "MULTIPLY_BASE",
+      "value": 1.2
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 300.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.15
+    },
+    "repair_efficiency": 1.5
+  }
+}

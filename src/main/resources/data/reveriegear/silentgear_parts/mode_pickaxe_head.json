@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:mode_pickaxe_head"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.mode_pickaxe_head"
+    },
+    "name_prefix": "part.reveriegear.mode_pickaxe_head.prefix"
+  },
+  "gear_type": "reveriegear:mode_pickaxe",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 1.0
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 1.2
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 200.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.5
+      }
+    ],
+    "repair_efficiency": 1.0
+  }
+}

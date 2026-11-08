@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "reveriegear:scythe_blueprint"
+    },
+    {
+      "item": "malum:soul_stained_steel_plating"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:magic_scythe_blueprint"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ]
+}

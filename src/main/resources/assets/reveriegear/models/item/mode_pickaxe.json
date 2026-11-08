@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/mode_pickaxe/rod",
+    "layer1": "reveriegear:item/mode_pickaxe/main",
+    "layer2": "reveriegear:item/mode_pickaxe/_highlight"
+  }
+}

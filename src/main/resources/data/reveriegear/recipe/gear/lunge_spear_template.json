@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:spear_template"
+    },
+    {
+      "item": "silentgear:template_board"
+    },
+    {
+      "item": "silentgear:template_board"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:lunge_spear_template"
+  }
+}

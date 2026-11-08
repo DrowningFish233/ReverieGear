@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/seeking_bow/seeking_bow_limb",
+    "layer1": "reveriegear:item/seeking_bow/seeking_bow_limb_layer",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

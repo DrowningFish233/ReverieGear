@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "reveriegear:gear_forge",
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "A": {
+      "item": "silentgear:stone_anvil"
+    },
+    "C": {
+      "tag": "c:cobblestones"
+    }
+  },
+  "pattern": [
+    "I I",
+    "IAI",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:gear_forge"
+  }
+}

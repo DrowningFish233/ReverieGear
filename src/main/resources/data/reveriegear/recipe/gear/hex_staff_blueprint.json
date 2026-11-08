@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:blueprint_paper"
+    },
+    {
+      "item": "malum:mnemonic_hex_staff"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:hex_staff_blueprint"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ]
+}

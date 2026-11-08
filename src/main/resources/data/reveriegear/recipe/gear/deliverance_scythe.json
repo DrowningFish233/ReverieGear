@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:gear_crafting",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "reveriegear:deliverance_scythe_blade"
+    },
+    {
+      "type": "silentgear:part_type",
+      "part_type": "silentgear:rod"
+    },
+    {
+      "type": "silentgear:part_type",
+      "part_type": "silentgear:rod"
+    }
+  ],
+  "gear_type": "reveriegear:deliverance_scythe",
+  "result": {
+    "count": 1,
+    "id": "reveriegear:deliverance_scythe"
+  }
+}

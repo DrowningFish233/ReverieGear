@@ -1,0 +1,13 @@
+{
+    "type":  "silentgear:gear_crafting",
+    "category":  "equipment",
+    "ingredients":  [
+                        {
+                            "item":  "reveriegear:ranger_leggings_plate"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "reveriegear:ranger_leggings"
+               }
+}

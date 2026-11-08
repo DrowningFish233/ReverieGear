@@ -1,0 +1,31 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:traveler_helmet_plate"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.traveler_helmet_plate"
+    },
+    "name_prefix": "part.reveriegear.traveler_helmet_plate.prefix"
+  },
+  "gear_type": "reveriegear:traveler_helmet",
+  "part_type": "silentgear:main",
+  "properties": {
+    "armor_durability": [
+      {
+        "operation": "ADD",
+        "value": 280.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.6
+      }
+    ],
+    "repair_efficiency": 1.0
+  }
+}

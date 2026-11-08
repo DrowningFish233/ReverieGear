@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/annihilator/annihilator_blade",
+    "layer1": "reveriegear:item/annihilator/annihilator_blade_layer",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

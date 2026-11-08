@@ -1,0 +1,59 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:robe_chestplate_fabric"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.robe_chestplate_fabric"
+    },
+    "name_prefix": "part.reveriegear.robe_chestplate_fabric.prefix"
+  },
+  "gear_type": "reveriegear:robe_chestplate",
+  "part_type": "silentgear:main",
+  "properties": {
+    "armor_durability": [
+      {
+        "operation": "ADD",
+        "value": 300.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.7
+      }
+    ],
+    "armor": {
+      "operation": "MULTIPLY_BASE",
+      "value": -0.25
+    },
+    "armor_toughness": {
+      "operation": "MULTIPLY_BASE",
+      "value": -0.25
+    },
+    "magic_armor": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.25
+    },
+    "knockback_resistance": {
+      "operation": "MULTIPLY_BASE",
+      "value": -0.5
+    },
+    "spell_power": {
+      "operation": "MULTIPLY_TOTAL",
+      "value": 0.25
+    },
+    "spell_resist": {
+      "operation": "MULTIPLY_TOTAL",
+      "value": 0.25
+    },
+    "mana_regen": {
+      "operation": "MULTIPLY_TOTAL",
+      "value": 0.25
+    },
+    "repair_efficiency": 1.0
+  }
+}

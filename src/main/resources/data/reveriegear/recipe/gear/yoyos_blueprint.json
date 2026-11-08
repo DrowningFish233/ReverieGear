@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " PP",
+    "APP",
+    "A  "
+  ],
+  "key": {
+    "P": {
+      "tag": "silentgear:blueprint_paper"
+    },
+    "A": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "reveriegear:yoyos_blueprint"
+  }
+}

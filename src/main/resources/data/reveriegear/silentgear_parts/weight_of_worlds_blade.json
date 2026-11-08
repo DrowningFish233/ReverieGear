@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:weight_of_worlds_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.weight_of_worlds_blade"
+    },
+    "name_prefix": "part.reveriegear.weight_of_worlds_blade.prefix"
+  },
+  "gear_type": "reveriegear:weight_of_worlds",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 6.0
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 0.6
+    },
+    "repair_efficiency": 1.0,
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 500.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.3
+      }
+    ]
+  }
+}

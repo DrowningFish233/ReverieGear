@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/sundering_anchor/main",
+    "layer1": "reveriegear:item/sundering_anchor/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

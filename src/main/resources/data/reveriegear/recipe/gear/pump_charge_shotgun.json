@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:gear_crafting",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "reveriegear:pump_charge_shotgun_barrel"
+    },
+    {
+      "type": "silentgear:part_type",
+      "part_type": "silentgear:rod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:pump_charge_shotgun"
+  }
+}

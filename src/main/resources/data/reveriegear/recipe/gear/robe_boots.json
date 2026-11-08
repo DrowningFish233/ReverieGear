@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:gear_crafting",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "reveriegear:robe_boots_fabric"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:robe_boots"
+  }
+}

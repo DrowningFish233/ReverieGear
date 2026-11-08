@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/autoloader_crossbow/main",
+    "layer2": "silentgear:item/part_marker"
+  }
+}

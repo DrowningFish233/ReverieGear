@@ -1,0 +1,45 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:tyrving_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.tyrving_blade"
+    },
+    "name_prefix": "part.reveriegear.tyrving_blade.prefix"
+  },
+  "gear_type": "reveriegear:tyrving",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": [
+      {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ],
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 1.3
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 500.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.5
+      }
+    ],
+    "repair_efficiency": 1.0
+  }
+}

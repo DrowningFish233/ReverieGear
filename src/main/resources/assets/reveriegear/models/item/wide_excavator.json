@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "reveriegear:item/wide_excavator/rod",
+    "layer1": "reveriegear:item/wide_excavator/head",
+    "layer2": "reveriegear:item/wide_excavator/_highlight"
+  }
+}

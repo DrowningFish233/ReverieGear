@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/malignant_stronghold_leggings/main",
+    "layer1": "reveriegear:item/malignant_stronghold_leggings/_highlight"
+  }
+}

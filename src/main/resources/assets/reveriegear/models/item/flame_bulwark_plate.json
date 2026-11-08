@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/flame_bulwark/flame_bulwark_plate",
+    "layer1": "silentgear:item/part_marker"
+  }
+}

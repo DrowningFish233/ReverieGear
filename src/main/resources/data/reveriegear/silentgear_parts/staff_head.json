@@ -1,0 +1,36 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:staff_head"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.staff_head"
+    },
+    "name_prefix": "part.reveriegear.staff_head.prefix"
+  },
+  "gear_type": "reveriegear:staff",
+  "part_type": "silentgear:main",
+  "properties": {
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 120.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.8
+      }
+    ],
+    "attack_damage": {
+      "operation": "ADD",
+      "value": -2.0
+    },
+    "attack_speed": 1.0,
+    "repair_efficiency": 1.0
+  }
+}

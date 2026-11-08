@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silentgear:item/template",
+    "layer1": "reveriegear:item/blueprint_monk_helmet"
+  }
+}

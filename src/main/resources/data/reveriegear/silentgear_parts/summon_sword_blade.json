@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:summon_sword_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.summon_sword_blade"
+    },
+    "name_prefix": "part.reveriegear.summon_sword_blade.prefix"
+  },
+  "gear_type": "reveriegear:summon_sword",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 0.5
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 1.6
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 500.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.1
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.15
+    },
+    "repair_efficiency": 1.5
+  }
+}

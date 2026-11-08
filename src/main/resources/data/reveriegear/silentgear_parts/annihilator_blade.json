@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:annihilator_blade"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.annihilator_blade"
+    },
+    "name_prefix": "part.reveriegear.annihilator_blade.prefix"
+  },
+  "gear_type": "reveriegear:annihilator",
+  "part_type": "silentgear:main",
+  "properties": {
+    "attack_damage": {
+      "operation": "ADD",
+      "value": 6.5
+    },
+    "attack_speed": {
+      "operation": "ADD",
+      "value": 1.6
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.2
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.1
+    },
+    "repair_efficiency": 1.5
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "silentgear:helmet_blueprint"
+    },
+    {
+      "item": "minecraft:bow"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reveriegear:ranger_helmet_blueprint"
+  }
+}

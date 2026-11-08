@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/lunge_spear/rod_gui",
+    "layer1": "reveriegear:item/lunge_spear/main_gui",
+    "layer2": "reveriegear:item/lunge_spear/_highlight_gui"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "spears:in_gui": 0
+      },
+      "model": "reveriegear:item/lunge_spear_in_hand"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "silentgear:core",
+  "crafting": {
+    "can_salvage": true,
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "reveriegear:cursed_bow_limb"
+    }
+  },
+  "display": {
+    "name": {
+      "translate": "item.reveriegear.cursed_bow_limb"
+    },
+    "name_prefix": "part.reveriegear.cursed_bow_limb.prefix"
+  },
+  "gear_type": "reveriegear:cursed_bow",
+  "part_type": "silentgear:main",
+  "properties": {
+    "ranged_damage": {
+      "operation": "ADD",
+      "value": 4.0
+    },
+    "draw_speed": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.8
+    },
+    "durability": [
+      {
+        "operation": "ADD",
+        "value": 250.0
+      },
+      {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.1
+      }
+    ],
+    "enchantment_value": {
+      "operation": "MULTIPLY_BASE",
+      "value": 0.15
+    },
+    "repair_efficiency": 1.5
+  }
+}

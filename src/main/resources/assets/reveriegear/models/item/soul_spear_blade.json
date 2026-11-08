@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reveriegear:item/soul_spear/main_gui",
+    "layer1": "reveriegear:item/soul_spear/_highlight",
+    "layer2": "silentgear:item/part_marker"
+  }
+}
