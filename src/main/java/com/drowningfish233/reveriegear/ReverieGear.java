@@ -1,6 +1,7 @@
 package com.drowningfish233.reveriegear;
 
 import com.drowningfish233.reveriegear.attachment.RFAttachments;
+import com.drowningfish233.reveriegear.datagen.RFDataGenerators;
 import com.drowningfish233.reveriegear.registry.RFAttributesRegistry;
 import com.drowningfish233.reveriegear.registry.RFBlocks;
 import com.drowningfish233.reveriegear.registry.RFDataComponents;
@@ -36,6 +37,7 @@ public class ReverieGear {
         RFAttributesRegistry.register(modEventBus);
 
         modEventBus.addListener(RFEntityRegistry::registerAttributes);
+        modEventBus.addListener(RFDataGenerators::gatherData);
 
         RFItems.ITEMS.register(modEventBus);
         RFItems.CREATIVE_MODE_TABS.register(modEventBus);

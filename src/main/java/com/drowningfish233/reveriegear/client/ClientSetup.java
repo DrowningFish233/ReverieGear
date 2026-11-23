@@ -46,20 +46,27 @@ public final class ClientSetup {
             MalignantStrongholdExtensions.register(event);
             SoulHunterExtensions.register(event);
         }
+        if (ModCompat.CATACLYSM) {
+            Cataclysm3DClient.register(event);
+        }
+        if (ModCompat.NETHEREXP && ModCompat.ELYSIUM_API) {
+            Netherexp3DClient.register(event);
+        }
     }
 
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        event.enqueueWork(() -> {
-            registerBuiltinModelProperties();
+        event.enqueueWork(ClientSetup::registerBuiltinModelProperties);
 
-            if (ModCompat.IRONS_SPELLBOOKS) {
-                IronsItemProperties.register();
-            }
-            if (ModCompat.NETHEREXP) {
-                NetherexpItemProperties.register();
-            }
-        });
+        if (ModCompat.IRONS_SPELLBOOKS) {
+            event.enqueueWork(IronsItemProperties::register);
+        }
+        if (ModCompat.NETHEREXP) {
+            event.enqueueWork(NetherexpItemProperties::register);
+        }
+        if (ModCompat.CATACLYSM) {
+            net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CataclysmPoseHandler::onPoseHand);
+        }
     }
 
     private static void registerBuiltinModelProperties() {

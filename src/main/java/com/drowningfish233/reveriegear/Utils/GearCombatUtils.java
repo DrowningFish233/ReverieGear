@@ -3,11 +3,15 @@ package com.drowningfish233.reveriegear.Utils;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ItemStack;
@@ -19,6 +23,9 @@ import java.util.stream.Collectors;
 
 
 public final class GearCombatUtils {
+    private static final ResourceKey<Attribute> ATTACK_DAMAGE_KEY =
+            ResourceKey.create(Registries.ATTRIBUTE, ResourceLocation.withDefaultNamespace("attack_damage"));
+
     private GearCombatUtils() {
     }
 
@@ -32,7 +39,7 @@ public final class GearCombatUtils {
         if (!mainHandStack.isEmpty()) {
             ItemAttributeModifiers modifiers = mainHandStack.getOrDefault(DataComponents.ATTRIBUTE_MODIFIERS, ItemAttributeModifiers.EMPTY);
             for (ItemAttributeModifiers.Entry entry : modifiers.modifiers()) {
-                if (entry.attribute().is(Attributes.ATTACK_DAMAGE) && entry.slot().test(EquipmentSlot.MAINHAND)) {
+                if (entry.attribute().is(ATTACK_DAMAGE_KEY) && entry.slot().test(EquipmentSlot.MAINHAND)) {
                     if (entry.modifier().operation() == AttributeModifier.Operation.ADD_VALUE) {
                         totalDamage -= entry.modifier().amount();
                     }
@@ -41,7 +48,7 @@ public final class GearCombatUtils {
         }
         ItemAttributeModifiers weaponModifiers = itemStack.getOrDefault(DataComponents.ATTRIBUTE_MODIFIERS, ItemAttributeModifiers.EMPTY);
         for (ItemAttributeModifiers.Entry entry : weaponModifiers.modifiers()) {
-            if (entry.attribute().is(Attributes.ATTACK_DAMAGE) && entry.slot().test(EquipmentSlot.MAINHAND)) {
+            if (entry.attribute().is(ATTACK_DAMAGE_KEY) && entry.slot().test(EquipmentSlot.MAINHAND)) {
                 if (entry.modifier().operation() == AttributeModifier.Operation.ADD_VALUE) {
                     totalDamage += entry.modifier().amount();
                 }
