@@ -26,14 +26,15 @@ import net.silentchaos512.gear.setup.gear.GearProperties;
 import net.silentchaos512.gear.setup.gear.PartTypes;
 import net.silentchaos512.gear.util.GearData;
 import net.silentchaos512.gear.util.GearHelper;
-import org.confluence.terraentity.api.event.SummonEvent;
+import org.confluence.lib.common.component.ModRarity;
+import org.confluence.terraentity.api.event.YoyosThrowingEvent;
 import org.confluence.terraentity.api.item.ILeftClickStateItem;
 import org.confluence.terraentity.api.item.IProjectileModifier;
 import org.confluence.terraentity.attachment.WeaponStorage;
 import org.confluence.terraentity.entity.proj.BaseProj;
 import org.confluence.terraentity.entity.proj.YoyosEntity;
 import org.confluence.terraentity.init.TEAttachments;
-import org.confluence.terraentity.init.entity.TESummonEntities;
+import org.confluence.terraentity.init.entity.TEProjectileEntities;
 import org.confluence.terraentity.item.YoyosItem;
 import org.confluence.terraentity.utils.AdapterUtils;
 import org.jetbrains.annotations.Nullable;
@@ -57,6 +58,7 @@ public class RFGearYoyosItem extends YoyosItem<BaseProj<?>> implements GearWeapo
 
     public RFGearYoyosItem(Supplier<GearType> gearType) {
         super(new Item.Properties().stacksTo(1).fireResistant().durability(500),
+                ModRarity.COMMON,
                 5.0f,
                 10,
                 0xFFFFFF,
@@ -99,7 +101,7 @@ public class RFGearYoyosItem extends YoyosItem<BaseProj<?>> implements GearWeapo
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
         GearClientHelper.addInformation(stack, context, tooltip, flag);
         float gearDamage = getGearAttackDamage(stack);
         float actualDamage = gearDamage * 0.5F;
@@ -229,7 +231,7 @@ public class RFGearYoyosItem extends YoyosItem<BaseProj<?>> implements GearWeapo
         }
 
         Level level = player.level();
-        YoyosEntity<?> proj = TESummonEntities.YOYOS_ENTITY.get().create(level);
+        YoyosEntity proj = TEProjectileEntities.YOYO_PROJ.get().create(level);
         if (proj != null) {
             this.gearStack = itemStack.copy();
             float existTime = 2.0F + getGearAttackDamage(itemStack) * 0.1F;
@@ -237,11 +239,10 @@ public class RFGearYoyosItem extends YoyosItem<BaseProj<?>> implements GearWeapo
             player.getCooldowns().addCooldown(itemStack.getItem(), (int) (existTime * 20));
             weaponStorage.yoyosEntity = proj;
             proj.setPos(player.getX(), player.getY(0.5f), player.getZ());
-            proj.setOwnerUUID(player.getUUID());
+            proj.setOwner(player);
             proj.setWeaponItem(itemStack);
+            AdapterUtils.postGameEvent(new YoyosThrowingEvent(player, itemStack, proj));
             level.addFreshEntity(proj);
-
-            AdapterUtils.postGameEvent(new SummonEvent.Pre<>(player, itemStack, TESummonEntities.YOYOS_ENTITY.get()));
         }
     }
 

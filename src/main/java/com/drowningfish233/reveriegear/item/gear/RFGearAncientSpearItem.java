@@ -18,6 +18,7 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.Vec3;
 import net.silentchaos512.gear.api.item.GearType;
 import net.silentchaos512.gear.api.item.GearWeapon;
 import net.silentchaos512.gear.api.part.PartType;
@@ -181,10 +182,9 @@ public class RFGearAncientSpearItem extends Ancient_Spear implements GearWeapon 
             double x = playerIn.getX() + vecX;
             double z = playerIn.getZ() + vecZ;
 
-            Sandstorm_Projectile sandstorm = new Sandstorm_Projectile(playerIn, directionX, directionY, directionZ, worldIn, sandstormDamage);
-            sandstorm.setOwner(playerIn);
-            sandstorm.setState(1);
-            sandstorm.setPos(x, playerIn.getEyeY() - 0.5D, z);
+            Vec3 direction = new Vec3(directionX, directionY, directionZ).normalize();
+            Sandstorm_Projectile sandstorm = new Sandstorm_Projectile(worldIn, playerIn, direction, sandstormDamage);
+            sandstorm.setPosRaw(x, playerIn.getEyeY() - 0.5D, z);
             worldIn.addFreshEntity(sandstorm);
 
             return true;
